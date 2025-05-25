@@ -1,0 +1,69 @@
+<!-- Updated index.html with Boolean input and enhanced validation -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variabel & Tipe Data JS</title>
+  <!-- favicon -->
+  <link rel="icon" href="/halamanUtama/picture/logo_javascript.png" type="image/x-icon">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/halamanUtama/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="/halamanUtama/html/main.html">
+          <img src="/halamanUtama/picture/logo_javascript.png" alt="Logo JavaScript">
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="/halamanUtama/html/main.html">Halaman Utama</a></li>
+          <li><a href="/variabelTipeData/html/variabelTipeData.html">Variabel & Tipe Data</a></li>
+          <li><a href="/operatorPembanding/html/operatorPembanding.html">Operator Pembanding</a></li>
+          <li><a href="/operatorLogika/html/operatorLogika.html">Operator Logika</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1>Variabel & Tipe Data</h1>
+  </header>
+
+  <main style="padding: 1rem;">
+    <section id="registration">
+      <h2>Variabel adalah kata kunci dari sebuah data, dalam hal ini, yang disebut variabel adalah nama, umur, dan sudah punya sim?</h2>
+      <h2>Nama merupakan tipe data string, yaitu huruf dan tidak bisa dioperasikan menggunakan aritmatika.</h2>
+      <h2>Umur adalah tipe data number, fungsi agar bisa dipakai untuk operasi aritmatika.</h2>
+      <h2>Sudah punya SIM? itu tipe data boolean, hanya true or false.</h2><br>
+      <h2>Silahkan dicoba</h2>
+      <form id="regForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="age">Umur:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label for="sim">Sudah punya SIM?</label>
+        <input type="checkbox" id="sim" name="sim"><br><br>
+
+        <button type="submit">Kirim</button>
+      </form>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <span id="hakCipta"></span> Darell Argasari. All rights reserved.
+    </p>
+  </footer>
+
+  <!-- JS eksternal -->
+  <script src="/variabelTipeData/js/variabelTipeData.js"></script>
+    
+</body>
+
+</html>
